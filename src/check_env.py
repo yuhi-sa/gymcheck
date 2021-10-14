@@ -9,7 +9,7 @@ from gym.spaces import *
 os.environ['MKL_THREADING_LAYER'] = 'GNU'
 
 def make_markdown(name, datalist): 
-    path = "./data/"+"/README.md" 
+    path = "./src/README.md" 
     f = open(path, "a")
     f.writelines(datalist)
     f.close()
@@ -38,8 +38,6 @@ def make_table(datalist):
 def check_env(name, ENV_ID):
 
     datalist = ["# "+ ENV_ID+ "\n"]
-    datalist.append("デモ動画は[こちら](./" + name + ")\n")
-
     env = gym.make(ENV_ID)
     
     # 行動空間

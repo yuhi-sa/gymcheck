@@ -4,6 +4,4 @@
 ![GitHub top language](https://img.shields.io/github/languages/top/yuhi-sa/gymcheck)
 ![GitHub language count](https://img.shields.io/github/languages/count/yuhi-sa/gymcheck)
 # gymcheck
-[Open AI Gym](https://gym.openai.com)の
-環境の確認(行動,状態,報酬空間)と適当な動画の作成をする．  
-作成されたデータは[data](/data)ディレクトリに保存．
+[Open AI Gym](https://gym.openai.com)の環境(行動,状態,報酬空間)の確認.
